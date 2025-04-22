@@ -1,0 +1,41 @@
+/* styles/Help.module.css */
+.container {
+    background-color: #000;
+    color: white;
+    padding: 3rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    color: #e50914;
+    margin-bottom: 2rem;
+  }
+  
+  .text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ddd;
+  }
+  
+  .link {
+    color: #e50914;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .link:hover {
+    color: #ff3333;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list li {
+    margin: 1rem 0;
+  }
+  

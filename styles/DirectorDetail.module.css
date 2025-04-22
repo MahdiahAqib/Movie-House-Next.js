@@ -1,0 +1,52 @@
+.container {
+    background-color: #000;
+    min-height: 100vh;
+    color: white;
+    padding: 3rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    color: #e50914;
+    margin-bottom: 2rem;
+  }
+  
+  .card {
+    background-color: #111;
+    border: 1px solid #e50914;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(229, 9, 20, 0.3);
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 2rem;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(229, 9, 20, 0.6);
+  }
+  
+  .card h2 {
+    color: #e50914;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .card p {
+    color: #ddd;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .card a {
+    color: #e50914;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    color: #ff3333;
+  }
+  

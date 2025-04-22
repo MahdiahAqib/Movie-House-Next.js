@@ -1,0 +1,81 @@
+/* General page container */
+.container {
+  background-color: #121212; /* Black background */
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.heading {
+  font-size: 3rem;
+  color: #e50914; /* Red for the main title */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 2rem;
+  color: #f1f1f1; /* Slightly lighter gray for subheading */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Movie list */
+.movieItem {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.movieCard {
+  display: block;
+  background-color: #111;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.movieCard:hover {
+  cursor: pointer;
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.5);
+  background-color: #1a1a1a;
+}
+
+
+.movieTitle {
+  font-size: 1.5rem;
+  color: #e50914; /* Red for the title */
+}
+
+.movieDescription {
+  color: #d3d3d3;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.movieCard a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.browseButton {
+  background-color: #e50914; /* Red button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin: 30px auto;
+  transition: background-color 0.3s ease;
+}
+
+.browseButton:hover {
+  background-color: #c40712; /* Darker red on hover */
+}
+

@@ -1,0 +1,45 @@
+.container {
+    background-color: #000;
+    min-height: 100vh;
+    color: white;
+    padding: 3rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    color: #e50914;
+    margin-bottom: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: #111;
+    border: 1px solid #e50914;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(229, 9, 20, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(229, 9, 20, 0.6);
+  }
+  
+  .genreLink {
+    text-decoration: none;
+    color: #e50914;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: block;
+  }
+  

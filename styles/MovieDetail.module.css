@@ -1,0 +1,38 @@
+.container {
+    max-width: 600px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #111;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+    text-align: center;
+  }
+  
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #e50914;
+  }
+  
+  .details p {
+    margin: 0.75rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .directorLink {
+    color: #e50914;
+    text-decoration: underline;
+  }
+  
+  .directorLink:hover {
+    text-decoration: none;
+    color: #ff3333;
+  }
+  
+  .description {
+    margin-top: 1.5rem;
+    font-style: italic;
+    line-height: 1.6;
+  }
+  

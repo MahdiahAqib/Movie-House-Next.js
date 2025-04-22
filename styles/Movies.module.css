@@ -1,0 +1,75 @@
+.container {
+  background-color: #000;
+  min-height: 100vh;
+  color: white;
+  padding: 3rem 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #e50914;
+  margin-bottom: 2rem;
+}
+
+.filter {
+  margin: 1rem 0;
+  font-weight: bold;
+  color: #e50914;
+}
+
+.select {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  background-color: #111;
+  border: 1px solid #e50914;
+  color: white;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: #111;
+  border: 1px solid #e50914;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 250px;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(229, 9, 20, 0.6);
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e50914;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #ddd;
+  font-size: 1rem;
+}
+
+.link {
+  color: #e50914;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #ff3333;
+}
