@@ -1,0 +1,54 @@
+/* styles/Header.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #222;
+  color: white;
+  border-bottom: 2px solid #444;
+}
+
+.siteTitle {
+  display: flex;
+  align-items: center;
+}
+
+.siteText {
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.linkContainer {
+  display: flex;
+  gap: 25px;
+  margin-left: auto; /* Push links to the right */
+  align-items: center;
+}
+
+.homeButton {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.homeButton:hover {
+  transform: scale(1.1);
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #e50914;
+  text-decoration: underline;
+}

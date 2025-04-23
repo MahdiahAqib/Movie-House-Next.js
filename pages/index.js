@@ -13,7 +13,7 @@ export default function Home({ trendingMovies }) {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.heading}>Welcome to Movie House 🎬</h1>
+      <h1 className={styles.heading}></h1>
       <h2 className={styles.subheading}>Trending Movies</h2>
       <ul className={styles.movieList}>
   {trendingMovies.map((movie) => (
